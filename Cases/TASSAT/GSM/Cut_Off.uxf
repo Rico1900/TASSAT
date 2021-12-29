@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.baselet.element.old.allinone.SequenceDiagram</type>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>1040</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>title: Cut_Off
+_User~id1_|_Mobile~id2_|_BSS~id3_|_MSC~id4_|_PSTN~id5_|_GSM CE~id6_|_BSS2~id7_|_MSC2~id8_
+sr
+id1-&gt;&gt;id2:id1,id2:r1,r2:End_button
+wr
+&lt;constraints&gt;
+2&lt;=wr-r1&lt;=3
+&lt;/constraints&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

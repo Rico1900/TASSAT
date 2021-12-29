@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3">
+<zoom_level>10</zoom_level>
+<element>
+<id>UMLSequenceAllInOne</id>
+<coordinates>
+<x>20</x>
+<y>20</y>
+<w>500</w>
+<h>520</h>
+</coordinates>
+<panel_attributes>title=A35
+obj=t1~ins1
+obj=t2~ins2
+obj=t3~ins3
+
+ins1-&gt;&gt;&gt;ins2: (al1,al2,m0);
+ins2-&gt;&gt;&gt;ins3: (al3,al4,m1);
+ins2-&gt;&gt;&gt;ins1: (al5,al6,m2);
+ins3-&gt;&gt;&gt;ins2: (al7,al8,m3);
+ins2-&gt;&gt;&gt;ins3: (al9,al10,m4);
+ins1-&gt;&gt;&gt;ins3: (al11,al12,m5);
+ins3-&gt;&gt;&gt;ins2: (al13,al14,m6);
+</panel_attributes>
+<additional_attributes/></element>
+<element>
+<id>UMLNote</id>
+<coordinates>
+<x>550</x>
+<y>50</y>
+<w>200</w>
+<h>130</h>
+</coordinates>
+<panel_attributes>Supplements
+sal,wal</panel_attributes>
+</element>
+<element>
+<id>UMLNote</id>
+<coordinates>
+<x>550</x>
+<y>210</y>
+<w>200</w>
+<h>210</h>
+</coordinates>
+<panel_attributes>Constraints
+4.4&lt;=al10-al8&lt;=6.2
+2.7&lt;=al3-sal&lt;=5.3
+3.5&lt;=al9-al7&lt;=8.4
+1.2&lt;=al11-al7&lt;=6.4
+</panel_attributes>
+</element>
+</diagram>

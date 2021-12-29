@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3">
+<zoom_level>10</zoom_level>
+<element>
+<id>UMLSequenceAllInOne</id>
+<coordinates>
+<x>20</x>
+<y>20</y>
+<w>950</w>
+<h>380</h>
+</coordinates>
+<panel_attributes>title=A45
+obj=t1~ins1
+obj=t2~ins2
+obj=t3~ins3
+obj=t4~ins4
+obj=t5~ins5
+obj=t6~ins6
+
+ins4-&gt;&gt;&gt;ins6: (ay1,ay2,m0);
+ins6-&gt;&gt;&gt;ins3: (ay3,ay4,m1);
+ins3-&gt;&gt;&gt;ins5: (ay5,ay6,m2);
+ins5-&gt;&gt;&gt;ins1: (ay7,ay8,m3);
+ins1-&gt;&gt;&gt;ins6: (ay9,ay10,m4);
+</panel_attributes>
+<additional_attributes/></element>
+<element>
+<id>UMLNote</id>
+<coordinates>
+<x>1000</x>
+<y>50</y>
+<w>200</w>
+<h>130</h>
+</coordinates>
+<panel_attributes>Supplements
+say,way</panel_attributes>
+</element>
+<element>
+<id>UMLNote</id>
+<coordinates>
+<x>1000</x>
+<y>210</y>
+<w>200</w>
+<h>170</h>
+</coordinates>
+<panel_attributes>Constraints
+8.2&lt;=ay9-ay8&lt;=12.6
+3.2&lt;=ay6-ay3&lt;=4.6
+</panel_attributes>
+</element>
+</diagram>

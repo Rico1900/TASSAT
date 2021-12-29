@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.baselet.element.old.allinone.SequenceDiagram</type>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>1250</w>
+      <h>470</h>
+    </coordinates>
+    <panel_attributes>title: Call_Release
+_User~id1_|_Mobile~id2_|_BSS~id3_|_MSC~id4_|_PSTN~id5_|_GSM CE~id6_|_BSS2~id7_|_MSC2~id8_
+sn
+id1-&gt;&gt;id2:id1,id2:n1,n2:End_button
+id2-&gt;&gt;id4:id2,id4:n3,n4:disconnect
+id4-&gt;&gt;id5:id4,id5:n5,n6:release
+id4-&gt;&gt;id2:id4,id2:n8,n7:release
+id5-&gt;&gt;id6:id5,id6:n9,na:release
+id6-&gt;&gt;id5:id6,id5:nc,nb:release complete
+id2-&gt;&gt;id4:id4,id6:nd,ne:release_complete
+wn
+&lt;constraints&gt;
+0&lt;=n3-n1&lt;=1
+&lt;/constraints&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

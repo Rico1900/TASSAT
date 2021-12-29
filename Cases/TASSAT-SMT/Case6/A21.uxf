@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3">
+<zoom_level>10</zoom_level>
+<element>
+<id>UMLSequenceAllInOne</id>
+<coordinates>
+<x>20</x>
+<y>20</y>
+<w>650</w>
+<h>450</h>
+</coordinates>
+<panel_attributes>title=A21
+obj=t1~ins1
+obj=t2~ins2
+obj=t3~ins3
+obj=t4~ins4
+
+ins3-&gt;&gt;&gt;ins4: (x1,x2,m0);
+ins4-&gt;&gt;&gt;ins1: (x3,x4,m1);
+ins4-&gt;&gt;&gt;ins2: (x5,x6,m2);
+ins4-&gt;&gt;&gt;ins2: (x7,x8,m3);
+ins3-&gt;&gt;&gt;ins4: (x9,x10,m4);
+ins1-&gt;&gt;&gt;ins2: (x11,x12,m5);
+</panel_attributes>
+<additional_attributes/></element>
+<element>
+<id>UMLNote</id>
+<coordinates>
+<x>700</x>
+<y>50</y>
+<w>200</w>
+<h>130</h>
+</coordinates>
+<panel_attributes>Supplements
+sx,wx</panel_attributes>
+</element>
+<element>
+<id>UMLNote</id>
+<coordinates>
+<x>700</x>
+<y>210</y>
+<w>200</w>
+<h>170</h>
+</coordinates>
+<panel_attributes>Constraints
+11.3&lt;=x10-x3&lt;=18.5
+2.1&lt;=x2-sx&lt;=18.4
+</panel_attributes>
+</element>
+</diagram>

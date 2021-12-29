@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3">
+<zoom_level>10</zoom_level>
+<element>
+<id>UMLSequenceAllInOne</id>
+<coordinates>
+<x>20</x>
+<y>20</y>
+<w>800</w>
+<h>380</h>
+</coordinates>
+<panel_attributes>title=A11
+obj=t1~ins1
+obj=t2~ins2
+obj=t3~ins3
+obj=t4~ins4
+obj=t5~ins5
+
+ins4-&gt;&gt;&gt;ins2: (k1,k2,m0);
+ins5-&gt;&gt;&gt;ins1: (k3,k4,m1);
+ins4-&gt;&gt;&gt;ins1: (k5,k6,m2);
+ins5-&gt;&gt;&gt;ins2: (k7,k8,m3);
+ins3-&gt;&gt;&gt;ins2: (k9,k10,m4);
+</panel_attributes>
+<additional_attributes/></element>
+<element>
+<id>UMLNote</id>
+<coordinates>
+<x>850</x>
+<y>50</y>
+<w>200</w>
+<h>130</h>
+</coordinates>
+<panel_attributes>Supplements
+sk,wk</panel_attributes>
+</element>
+<element>
+<id>UMLNote</id>
+<coordinates>
+<x>850</x>
+<y>210</y>
+<w>200</w>
+<h>210</h>
+</coordinates>
+<panel_attributes>Constraints
+5.1&lt;=k7-k2&lt;=19.4
+9.0&lt;=k8-k4&lt;=17.1
+12.4&lt;=k2-sk&lt;=17.3
+2.7&lt;=wk-k6&lt;=10.4
+</panel_attributes>
+</element>
+</diagram>

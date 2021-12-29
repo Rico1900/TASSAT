@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="76087f06-0d44-4714-b184-7aa13a50fc35" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="1p5jr4AVA6ipU7cYxLJcodZ1XjK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Cases" />
+      <recent name="C:\Users\Rico\Documents\Working\Tassat\src\main\java\model\neo" />
+      <recent name="C:\Users\Rico\Documents\Working\Tassat" />
+      <recent name="C:\Users\Rico\Documents\Working\Tassat\src" />
+      <recent name="C:\Users\Rico\Documents\Working\Tassat\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Cases/TASSAT-SMT/ATM" />
+      <recent name="$PROJECT_DIR$/Cases/TASSAT/ATM" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/bin" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="model.neo" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Lab" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="lab.Lab" />
+      <module name="Tassat" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/protocol.json" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76087f06-0d44-4714-b184-7aa13a50fc35" name="Default Changelist" comment="" />
+      <created>1614480040350</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614480040350</updated>
+      <workItem from="1614480041589" duration="18535000" />
+      <workItem from="1614561792348" duration="22226000" />
+      <workItem from="1614650021203" duration="21286000" />
+      <workItem from="1614773001891" duration="2469000" />
+      <workItem from="1614857288448" duration="7126000" />
+      <workItem from="1614864516439" duration="3706000" />
+      <workItem from="1614924873114" duration="19585000" />
+      <workItem from="1615805428319" duration="10140000" />
+      <workItem from="1615904561055" duration="7990000" />
+      <workItem from="1615992556542" duration="4181000" />
+      <workItem from="1616137022132" duration="14929000" />
+      <workItem from="1616202099592" duration="23969000" />
+      <workItem from="1616289911931" duration="31611000" />
+      <workItem from="1616412838261" duration="8431000" />
+      <workItem from="1616463356444" duration="24526000" />
+      <workItem from="1616586168730" duration="1997000" />
+      <workItem from="1616596211838" duration="23000" />
+      <workItem from="1617718275957" duration="4966000" />
+      <workItem from="1617805411958" duration="5308000" />
+      <workItem from="1617891757401" duration="6616000" />
+      <workItem from="1617932881974" duration="18164000" />
+      <workItem from="1638941749650" duration="14383000" />
+      <workItem from="1639017421522" duration="129000" />
+      <workItem from="1639017572170" duration="8527000" />
+      <workItem from="1640774689445" duration="1032000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/logic/BizLogic.java</url>
+          <line>242</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/logic/BizLogic.java</url>
+          <line>340</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/logic/BizLogic.java</url>
+          <line>310</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/logic/BizLogic.java</url>
+          <line>283</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/util/$.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/logic/BizLogic.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/util/$.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/logic/BizLogic.java</url>
+          <line>369</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

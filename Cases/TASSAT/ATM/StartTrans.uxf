@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.baselet.element.old.allinone.SequenceDiagram</type>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>300</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>title: StartTrans
+_User~id1_|_ATM~id2_|_Bank~id3_
+sa
+id1-&gt;&gt;id2:id1,id2:a1,a2:Card
+wa
+&lt;constraints&gt;
+&lt;/constraints&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

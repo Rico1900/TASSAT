@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.baselet.element.old.allinone.SequenceDiagram</type>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>360</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>title: RefusePin
+_User~id1_|_ATM~id2_|_Bank~id3_
+sk
+id3-&gt;&gt;id2:id2,id3:k2,k1:Not_approved
+id2-&gt;&gt;id1:id1,id2:k4,k3:Not_possile
+id2-&gt;&gt;id1:id1,id2:k6,k5:Option
+wk
+&lt;constraints&gt;
+&lt;/constraints&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

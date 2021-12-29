@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+<zoom_level>10</zoom_level>
+<element>
+<type>com.baselet.element.old.allinone.SequenceDiagram</type>
+<coordinates>
+<x>20</x>
+<y>20</y>
+<w>360</w>
+<h>640</h>
+</coordinates>
+<panel_attributes>title: A26
+_t1~id1_|_t2~id2_|_t3~id3_
+sac
+id1-&gt;&gt;id3:id1,id3:ac1,ac2:m0
+id2-&gt;&gt;id1:id2,id1:ac3,ac4:m1
+id3-&gt;&gt;id1:id3,id1:ac5,ac6:m2
+id2-&gt;&gt;id3:id2,id3:ac7,ac8:m3
+id2-&gt;&gt;id1:id2,id1:ac9,ac10:m4
+id3-&gt;&gt;id2:id3,id2:ac11,ac12:m5
+id1-&gt;&gt;id2:id1,id2:ac13,ac14:m6
+id1-&gt;&gt;id3:id1,id3:ac15,ac16:m7
+wac
+&lt;constraints&gt;
+8.6&lt;=ac15-ac10&lt;=14.9
+&lt;/constraints&gt;</panel_attributes>
+<additional_attributes/></element>
+</diagram>

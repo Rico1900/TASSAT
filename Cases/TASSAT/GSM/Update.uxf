@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.baselet.element.old.allinone.SequenceDiagram</type>
+    <coordinates>
+      <x>0</x>
+      <y>20</y>
+      <w>1050</w>
+      <h>470</h>
+    </coordinates>
+    <panel_attributes>title: Update
+_User~id1_|_Mobile~id2_|_BSS~id3_|_MSC~id4_|_PSTN~id5_|_GSM CE~id6_|_BSS2~id7_|_MSC2~id8_
+sW
+id4-&gt;&gt;id8:id4,id8:W1,W2:send_parameters
+id8-&gt;&gt;id4:id8,id4:W4,W3:send_parameters_result
+id4-&gt;&gt;id6:id4,id6:W5,W6:update_location
+id6-&gt;&gt;id4:id6,id4:W8,W7:insert_subscriber_data
+id4-&gt;&gt;id6:id4,id6:W9,Wa:insert_subscriber_data_result
+id6-&gt;&gt;id8:id6,id8:Wb,Wc:cancel_location
+id8-&gt;&gt;id6:id8,id6:We,Wd:cancel_location_result
+id6-&gt;&gt;id4:id6,id4:Wg,Wf:update_location_result
+wW
+&lt;constraints&gt;
+&lt;/constraints&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

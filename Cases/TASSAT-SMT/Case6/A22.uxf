@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3">
+<zoom_level>10</zoom_level>
+<element>
+<id>UMLSequenceAllInOne</id>
+<coordinates>
+<x>20</x>
+<y>20</y>
+<w>800</w>
+<h>520</h>
+</coordinates>
+<panel_attributes>title=A22
+obj=t1~ins1
+obj=t2~ins2
+obj=t3~ins3
+obj=t4~ins4
+obj=t5~ins5
+
+ins1-&gt;&gt;&gt;ins4: (y1,y2,m0);
+ins2-&gt;&gt;&gt;ins4: (y3,y4,m1);
+ins3-&gt;&gt;&gt;ins2: (y5,y6,m2);
+ins1-&gt;&gt;&gt;ins4: (y7,y8,m3);
+ins1-&gt;&gt;&gt;ins3: (y9,y10,m4);
+ins2-&gt;&gt;&gt;ins4: (y11,y12,m5);
+ins1-&gt;&gt;&gt;ins3: (y13,y14,m6);
+</panel_attributes>
+<additional_attributes/></element>
+<element>
+<id>UMLNote</id>
+<coordinates>
+<x>850</x>
+<y>50</y>
+<w>200</w>
+<h>130</h>
+</coordinates>
+<panel_attributes>Supplements
+sy,wy</panel_attributes>
+</element>
+<element>
+<id>UMLNote</id>
+<coordinates>
+<x>850</x>
+<y>210</y>
+<w>200</w>
+<h>190</h>
+</coordinates>
+<panel_attributes>Constraints
+3.0&lt;=y6-sy&lt;=18.3
+5.0&lt;=y8-y6&lt;=14.2
+9.9&lt;=y13-y10&lt;=16.0
+</panel_attributes>
+</element>
+</diagram>

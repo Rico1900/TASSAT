@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3">
+<zoom_level>10</zoom_level>
+<element>
+<id>UMLSequenceAllInOne</id>
+<coordinates>
+<x>20</x>
+<y>20</y>
+<w>950</w>
+<h>310</h>
+</coordinates>
+<panel_attributes>title=A34
+obj=t1~ins1
+obj=t2~ins2
+obj=t3~ins3
+obj=t4~ins4
+obj=t5~ins5
+obj=t6~ins6
+
+ins3-&gt;&gt;&gt;ins2: (ak1,ak2,m0);
+ins4-&gt;&gt;&gt;ins1: (ak3,ak4,m1);
+ins1-&gt;&gt;&gt;ins5: (ak5,ak6,m2);
+ins4-&gt;&gt;&gt;ins6: (ak7,ak8,m3);
+</panel_attributes>
+<additional_attributes/></element>
+<element>
+<id>UMLNote</id>
+<coordinates>
+<x>1000</x>
+<y>50</y>
+<w>200</w>
+<h>130</h>
+</coordinates>
+<panel_attributes>Supplements
+sak,wak</panel_attributes>
+</element>
+<element>
+<id>UMLNote</id>
+<coordinates>
+<x>1000</x>
+<y>210</y>
+<w>200</w>
+<h>150</h>
+</coordinates>
+<panel_attributes>Constraints
+12.6&lt;=wak-ak4&lt;=15.4
+</panel_attributes>
+</element>
+</diagram>

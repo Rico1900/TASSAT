@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.baselet.element.old.allinone.SequenceDiagram</type>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>380</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>title: ConfiscateCard
+_User~id1_|_ATM~id2_|_Bank~id3_
+sl
+id2-&gt;&gt;id1:id1,id2:l2,l1:Take_Card_Mac
+wl
+&lt;constraints&gt;
+2&lt;=wl-l1&lt;=3
+&lt;/constraints&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

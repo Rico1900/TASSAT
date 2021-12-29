@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>7</zoom_level>
+  <element>
+    <type>com.baselet.element.old.allinone.ActivityDiagramText</type>
+    <coordinates>
+      <x>0</x>
+      <y>0</y>
+      <w>1224</w>
+      <h>1997</h>
+    </coordinates>
+    <panel_attributes>title:ATM
+Start~id0
+StartTrans~id1
+GetPin~id2
+If
+	[1]
+	EndTrans2~id3
+	If
+		[1]
+		StartTrans-&gt;id1
+
+		[1]
+		End~id-1
+	EndIf	
+	
+	[1]
+	ProcessPin~id4
+	If
+		[1]
+		GetOption~id5
+		If
+			[1]
+			Withdraw~id6
+			If
+				[1]
+				DispenseCash~id7
+				If
+					[1]
+					Withdraw-&gt;id6
+
+					[1]
+					GetBalance_Loop-&gt;id9
+
+					[1]
+					EndTrans-&gt;id10
+				EndIf
+
+				[1]
+				RefuseWith~id8
+				If
+					[1]
+					Withdraw-&gt;id6
+
+					[1]
+					GetBalance_Loop-&gt;id9
+
+					[1]
+					EndTrans-&gt;id10
+				EndIf					
+			EndIf
+			
+			[1]
+			GetBalance_Loop~id9
+			If
+				[1]
+				Withdraw-&gt;id6
+
+				[1]
+				EndTrans-&gt;id10
+			EndIf
+
+			[1]
+			EndTrans~id10
+			If
+				[1]
+				StartTrans-&gt;id1
+
+				[1]
+				End~id-1
+			EndIf
+		EndIf	
+		
+		[1]
+		TryAgain~id11
+		StartTrans-&gt;id1
+		
+		[1]
+		RefusePin~id12
+		GetPin2~id13
+		If
+			[1]
+			EndTrans2-&gt;id3
+
+			[1]
+			ProcessPin2~id14
+			If
+				[1]
+				TryAgain-&gt;id11
+
+				[1]
+				GetOption-&gt;id5
+
+				[1]
+				RefusePin2~id15
+				ConfiscateCard~id16
+				If
+					[1]
+					StartTrans-&gt;id1
+
+					[1]
+					End~id-1
+				EndIf
+			EndIf
+		EndIf
+	EndIf
+EndIf
+next&gt;
+id0=&gt;id1
+id1=&gt;id2
+id2=&gt;id3,id4
+id3=&gt;id1,id-1
+id4=&gt;id5,id11,id12
+id5=&gt;id6,id9,id10
+id6=&gt;id7,id8
+id7=&gt;id6,id9,id10
+id8=&gt;id6,id9,id10
+id9=&gt;id6,id10
+id10=&gt;id1,id-1
+id11=&gt;id1
+id12=&gt;id13
+id13=&gt;id3,id14
+id14=&gt;id11,id5,id15
+id15=&gt;id16
+id16=&gt;id1,id-1
+next&gt;
+
+constraints&gt;
+0&lt;=c2-b1&lt;=4
+5&lt;=d2-b1&lt;=60
+10&lt;=e1-d3&lt;=10
+0&lt;=f2-d3&lt;=10
+0&lt;=g2-d3&lt;=10
+0&lt;=n2-d3&lt;=10
+0&lt;=b1-g3&lt;=2
+0&lt;=j2-h7&lt;=10 
+0&lt;=k2-h7&lt;=10
+3&lt;=l1-n3&lt;=5
+0&lt;=j4-h5&lt;=6
+0&lt;=k4-h5&lt;=6
+constraints&gt;
+		</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

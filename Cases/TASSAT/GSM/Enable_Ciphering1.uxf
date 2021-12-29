@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.baselet.element.old.allinone.SequenceDiagram</type>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>1630</w>
+      <h>380</h>
+    </coordinates>
+    <panel_attributes>title: Enable_Ciphering1
+_User~id1_|_Mobile~id2_|_BSS~id3_|_MSC~id4_|_PSTN~id5_|_GSM CE~id6_|_BSS2~id7_|_MSC2~id8_
+sG
+id4-&gt;&gt;id3:id4,id3:G2,G1:cipher_mode_command
+id3-&gt;&gt;id2:id3,id2:G4,G3:copher_mode_command
+id2-&gt;&gt;id3:id2,id3:G5,G6:complete
+id3-&gt;&gt;id4:id3,id4:G7,G8:complete
+wG
+&lt;constraints&gt;
+0&lt;=G8-G1&lt;=2
+&lt;/constraints&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

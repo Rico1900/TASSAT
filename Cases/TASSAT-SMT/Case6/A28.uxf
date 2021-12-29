@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3">
+<zoom_level>10</zoom_level>
+<element>
+<id>UMLSequenceAllInOne</id>
+<coordinates>
+<x>20</x>
+<y>20</y>
+<w>650</w>
+<h>660</h>
+</coordinates>
+<panel_attributes>title=A28
+obj=t1~ins1
+obj=t2~ins2
+obj=t3~ins3
+obj=t4~ins4
+
+ins1-&gt;&gt;&gt;ins2: (ae1,ae2,m0);
+ins4-&gt;&gt;&gt;ins3: (ae3,ae4,m1);
+ins1-&gt;&gt;&gt;ins2: (ae5,ae6,m2);
+ins1-&gt;&gt;&gt;ins2: (ae7,ae8,m3);
+ins4-&gt;&gt;&gt;ins3: (ae9,ae10,m4);
+ins3-&gt;&gt;&gt;ins1: (ae11,ae12,m5);
+ins1-&gt;&gt;&gt;ins3: (ae13,ae14,m6);
+ins2-&gt;&gt;&gt;ins3: (ae15,ae16,m7);
+ins1-&gt;&gt;&gt;ins2: (ae17,ae18,m8);
+</panel_attributes>
+<additional_attributes/></element>
+<element>
+<id>UMLNote</id>
+<coordinates>
+<x>700</x>
+<y>50</y>
+<w>200</w>
+<h>130</h>
+</coordinates>
+<panel_attributes>Supplements
+sae,wae</panel_attributes>
+</element>
+<element>
+<id>UMLNote</id>
+<coordinates>
+<x>700</x>
+<y>210</y>
+<w>200</w>
+<h>210</h>
+</coordinates>
+<panel_attributes>Constraints
+4.1&lt;=ae18-ae1&lt;=8.3
+3.7&lt;=ae6-ae2&lt;=17.1
+10.6&lt;=ae15-ae3&lt;=13.8
+3.8&lt;=ae10-ae5&lt;=12.7
+</panel_attributes>
+</element>
+</diagram>

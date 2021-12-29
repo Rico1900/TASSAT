@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.baselet.element.old.allinone.SequenceDiagram</type>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>1310</w>
+      <h>410</h>
+    </coordinates>
+    <panel_attributes>title: Page_Setup
+_User~id1_|_Mobile~id2_|_BSS~id3_|_MSC~id4_|_PSTN~id5_|_GSM CE~id6_|_BSS2~id7_|_MSC2~id8_
+sq
+id4-&gt;&gt;id2:id4,id2:q2,q1:setup
+id2-&gt;&gt;id4:id2,id4:q3,q4:call_confirmed
+id2-&gt;&gt;id1:id2,id1:q6,q5:ring
+id2-&gt;&gt;id4:id2,id4:q7,q8:alerting
+id4-&gt;&gt;id5:id4,id5:q9,qa:address_complete
+wq
+&lt;constraints&gt;
+0&lt;=q6-q3&lt;=1
+&lt;/constraints&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

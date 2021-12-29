@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3">
+<zoom_level>10</zoom_level>
+<element>
+<id>UMLSequenceAllInOne</id>
+<coordinates>
+<x>20</x>
+<y>20</y>
+<w>950</w>
+<h>590</h>
+</coordinates>
+<panel_attributes>title=A15
+obj=t1~ins1
+obj=t2~ins2
+obj=t3~ins3
+obj=t4~ins4
+obj=t5~ins5
+obj=t6~ins6
+
+ins5-&gt;&gt;&gt;ins3: (o1,o2,m0);
+ins1-&gt;&gt;&gt;ins4: (o3,o4,m1);
+ins6-&gt;&gt;&gt;ins4: (o5,o6,m2);
+ins4-&gt;&gt;&gt;ins6: (o7,o8,m3);
+ins2-&gt;&gt;&gt;ins1: (o9,o10,m4);
+ins2-&gt;&gt;&gt;ins5: (o11,o12,m5);
+ins5-&gt;&gt;&gt;ins4: (o13,o14,m6);
+ins1-&gt;&gt;&gt;ins4: (o15,o16,m7);
+</panel_attributes>
+<additional_attributes/></element>
+<element>
+<id>UMLNote</id>
+<coordinates>
+<x>1000</x>
+<y>50</y>
+<w>200</w>
+<h>130</h>
+</coordinates>
+<panel_attributes>Supplements
+so,wo</panel_attributes>
+</element>
+<element>
+<id>UMLNote</id>
+<coordinates>
+<x>1000</x>
+<y>210</y>
+<w>200</w>
+<h>190</h>
+</coordinates>
+<panel_attributes>Constraints
+3.0&lt;=wo-o1&lt;=11.7
+3.0&lt;=o16-so&lt;=15.5
+14.9&lt;=wo-o10&lt;=16.1
+</panel_attributes>
+</element>
+</diagram>

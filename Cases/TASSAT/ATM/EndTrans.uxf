@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.baselet.element.old.allinone.SequenceDiagram</type>
+    <coordinates>
+      <x>110</x>
+      <y>40</y>
+      <w>360</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>title: EndTrans
+_User~id1_|_ATM~id2_|_Bank~id3_
+sm
+id1-&gt;&gt;id2:id1,id2:m1,m2:Cancel
+id2-&gt;&gt;id1:id1,id2:m4,m3:Return_Card
+wm
+&lt;constraints&gt;
+2&lt;=wm-m3&lt;=3
+&lt;/constraints&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

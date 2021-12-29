@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3">
+<zoom_level>10</zoom_level>
+<element>
+<id>UMLSequenceAllInOne</id>
+<coordinates>
+<x>20</x>
+<y>20</y>
+<w>650</w>
+<h>520</h>
+</coordinates>
+<panel_attributes>title=A14
+obj=t1~ins1
+obj=t2~ins2
+obj=t3~ins3
+obj=t4~ins4
+
+ins4-&gt;&gt;&gt;ins1: (n1,n2,m0);
+ins1-&gt;&gt;&gt;ins3: (n3,n4,m1);
+ins1-&gt;&gt;&gt;ins4: (n5,n6,m2);
+ins1-&gt;&gt;&gt;ins2: (n7,n8,m3);
+ins3-&gt;&gt;&gt;ins2: (n9,n10,m4);
+ins1-&gt;&gt;&gt;ins3: (n11,n12,m5);
+ins1-&gt;&gt;&gt;ins2: (n13,n14,m6);
+</panel_attributes>
+<additional_attributes/></element>
+<element>
+<id>UMLNote</id>
+<coordinates>
+<x>700</x>
+<y>50</y>
+<w>200</w>
+<h>130</h>
+</coordinates>
+<panel_attributes>Supplements
+sn,wn</panel_attributes>
+</element>
+<element>
+<id>UMLNote</id>
+<coordinates>
+<x>700</x>
+<y>210</y>
+<w>200</w>
+<h>150</h>
+</coordinates>
+<panel_attributes>Constraints
+0.2&lt;=wn-n7&lt;=8.7
+</panel_attributes>
+</element>
+</diagram>

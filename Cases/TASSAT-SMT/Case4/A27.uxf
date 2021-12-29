@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3">
+<zoom_level>10</zoom_level>
+<element>
+<id>UMLSequenceAllInOne</id>
+<coordinates>
+<x>20</x>
+<y>20</y>
+<w>800</w>
+<h>380</h>
+</coordinates>
+<panel_attributes>title=A27
+obj=t1~ins1
+obj=t2~ins2
+obj=t3~ins3
+obj=t4~ins4
+obj=t5~ins5
+
+ins5-&gt;&gt;&gt;ins1: (ad1,ad2,m0);
+ins1-&gt;&gt;&gt;ins2: (ad3,ad4,m1);
+ins1-&gt;&gt;&gt;ins5: (ad5,ad6,m2);
+ins2-&gt;&gt;&gt;ins4: (ad7,ad8,m3);
+ins5-&gt;&gt;&gt;ins1: (ad9,ad10,m4);
+</panel_attributes>
+<additional_attributes/></element>
+<element>
+<id>UMLNote</id>
+<coordinates>
+<x>850</x>
+<y>50</y>
+<w>200</w>
+<h>130</h>
+</coordinates>
+<panel_attributes>Supplements
+sad,wad</panel_attributes>
+</element>
+<element>
+<id>UMLNote</id>
+<coordinates>
+<x>850</x>
+<y>210</y>
+<w>200</w>
+<h>210</h>
+</coordinates>
+<panel_attributes>Constraints
+6.1&lt;=wad-ad8&lt;=19.5
+4.7&lt;=ad6-ad5&lt;=11.9
+11.0&lt;=wad-ad3&lt;=18.2
+8.4&lt;=wad-ad9&lt;=9.6
+</panel_attributes>
+</element>
+</diagram>

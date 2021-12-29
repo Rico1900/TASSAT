@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <help_text>title: DispenseCash
+_User~id1_|_ATM~id2_|_Bank~id3_
+id2-&gt;&gt;id1:id1,id2:l2,l1
+wj
+&lt;constraints&gt;
+2&lt;=wl-l1&lt;=3
+&lt;/constraints&gt;</help_text>
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.baselet.element.old.allinone.SequenceDiagram</type>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>360</w>
+      <h>470</h>
+    </coordinates>
+    <panel_attributes>title: DispenseCash
+_User~id1_|_ATM~id2_|_Bank~id3_
+sj
+id3-&gt;&gt;id2:id2,id3:j2,j1:ATM_approved
+id2-&gt;&gt;id1:id1,id2:j4,j3:GiveMoney
+id2-&gt;&gt;id3:id2,id3:j5,j6:REG_balance
+id3-&gt;&gt;id2:id2,id3:j8,j7:Balance
+id2-&gt;&gt;id1:id1,id2:j10,j9:Print_record
+id2-&gt;&gt;id1:id1,id2:j12,j11:Option
+wj
+&lt;constraints&gt;
+3&lt;=j11-j8&lt;=5
+0.5&lt;=wj-j9
+0&lt;=j8-j5&lt;=10
+&lt;/constraints&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

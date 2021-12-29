@@ -1,0 +1,7 @@
+{
+    "type": "TASSAT_SMT",
+    "targets": ["A14"],
+    "bound": 20,
+    "solver": "Z3",
+    "inputFolder": "/path/to/case1/"
+}

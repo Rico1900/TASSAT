@@ -1,0 +1,6 @@
+{
+  "type": "TASSAT",
+  "bound": 10,
+  "targets": ["A14"],
+  "baseDir": "/path/to/case1/"
+}

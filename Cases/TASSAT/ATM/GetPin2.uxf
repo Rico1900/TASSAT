@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.baselet.element.old.allinone.SequenceDiagram</type>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>300</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>title: GetPin2
+_User~id1_|_ATM~id2_|_Bank~id3_
+so
+id2-&gt;&gt;id1:id1,id2:o2,o1:REQ_pin
+wo
+&lt;constraints&gt;
+&lt;/constraints&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

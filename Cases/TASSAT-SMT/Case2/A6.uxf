@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3">
+<zoom_level>10</zoom_level>
+<element>
+<id>UMLSequenceAllInOne</id>
+<coordinates>
+<x>20</x>
+<y>20</y>
+<w>500</w>
+<h>310</h>
+</coordinates>
+<panel_attributes>title=A6
+obj=t1~ins1
+obj=t2~ins2
+obj=t3~ins3
+
+ins2-&gt;&gt;&gt;ins3: (f1,f2,m0);
+ins2-&gt;&gt;&gt;ins1: (f3,f4,m1);
+ins3-&gt;&gt;&gt;ins1: (f5,f6,m2);
+ins1-&gt;&gt;&gt;ins3: (f7,f8,m3);
+</panel_attributes>
+<additional_attributes/></element>
+<element>
+<id>UMLNote</id>
+<coordinates>
+<x>550</x>
+<y>50</y>
+<w>200</w>
+<h>130</h>
+</coordinates>
+<panel_attributes>Supplements
+sf,wf</panel_attributes>
+</element>
+<element>
+<id>UMLNote</id>
+<coordinates>
+<x>550</x>
+<y>210</y>
+<w>200</w>
+<h>170</h>
+</coordinates>
+<panel_attributes>Constraints
+2.8&lt;=f2-sf&lt;=14.9
+4.8&lt;=f8-f7&lt;=5.8
+</panel_attributes>
+</element>
+</diagram>

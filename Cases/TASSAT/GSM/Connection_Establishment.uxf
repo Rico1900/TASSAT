@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.baselet.element.old.allinone.SequenceDiagram</type>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>1480</w>
+      <h>350</h>
+    </coordinates>
+    <panel_attributes>title: Connection_Establishment
+_User~id1_|_Mobile~id2_|_BSS~id3_|_MSC~id4_|_PSTN~id5_|_GSM CE~id6_|_BSS2~id7_|_MSC2~id8_
+sf
+id3-&gt;&gt;id2:id3,id2:f2,f1:channel_assign
+id2-&gt;&gt;id3:id2,id3:f3,f4:SABM_service_request
+id3-&gt;&gt;id2:id3,id2:f6,f5:UA
+id3-&gt;&gt;id4:id3,id4:f7,f8:complete_layer_3_msg
+wf
+&lt;constraints&gt;
+&lt;/constraints&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

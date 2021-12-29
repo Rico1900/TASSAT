@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.baselet.element.old.allinone.SequenceDiagram</type>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>1440</w>
+      <h>530</h>
+    </coordinates>
+    <panel_attributes>title: Mode_Modify1
+_User~id1_|_Mobile~id2_|_BSS~id3_|_MSC~id4_|_PSTN~id5_|_GSM CE~id6_|_BSS2~id7_|_MSC2~id8_
+sI
+id4-&gt;&gt;id3:id4,id3:I2,I1:assignment_request
+id3-&gt;&gt;id2:id3,id2:I4,I3:channel_mode_modify
+id3-&gt;&gt;id2:id3,id2:I5,I6:ack
+id3-&gt;&gt;id4:id3,id4:I7,I8:assignment_complete
+id4-&gt;&gt;id5:id4,id5:I9,Ia:init_address_msg
+id5-&gt;&gt;id4:id5,id4:Ic,Ib:address_complete
+id4-&gt;&gt;id2:id4,id2:Ie,Id:alerting
+id2-&gt;&gt;id1:id2,id1:Ig,If:alerting_tone
+wI
+&lt;constraints&gt;
+0&lt;=Ie-I9&lt;=5
+0&lt;=Ig-Ie&lt;=1
+&lt;/constraints&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

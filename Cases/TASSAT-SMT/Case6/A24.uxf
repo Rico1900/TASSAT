@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3">
+<zoom_level>10</zoom_level>
+<element>
+<id>UMLSequenceAllInOne</id>
+<coordinates>
+<x>20</x>
+<y>20</y>
+<w>800</w>
+<h>310</h>
+</coordinates>
+<panel_attributes>title=A24
+obj=t1~ins1
+obj=t2~ins2
+obj=t3~ins3
+obj=t4~ins4
+obj=t5~ins5
+
+ins5-&gt;&gt;&gt;ins4: (aa1,aa2,m0);
+ins4-&gt;&gt;&gt;ins3: (aa3,aa4,m1);
+ins3-&gt;&gt;&gt;ins5: (aa5,aa6,m2);
+ins2-&gt;&gt;&gt;ins5: (aa7,aa8,m3);
+</panel_attributes>
+<additional_attributes/></element>
+<element>
+<id>UMLNote</id>
+<coordinates>
+<x>850</x>
+<y>50</y>
+<w>200</w>
+<h>130</h>
+</coordinates>
+<panel_attributes>Supplements
+saa,waa</panel_attributes>
+</element>
+<element>
+<id>UMLNote</id>
+<coordinates>
+<x>850</x>
+<y>210</y>
+<w>200</w>
+<h>190</h>
+</coordinates>
+<panel_attributes>Constraints
+0.0&lt;=aa8-aa1&lt;=2.7
+1.0&lt;=aa6-aa5&lt;=18.0
+5.3&lt;=aa6-aa3&lt;=14.4
+</panel_attributes>
+</element>
+</diagram>

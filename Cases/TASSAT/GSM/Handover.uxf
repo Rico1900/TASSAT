@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.baselet.element.old.allinone.SequenceDiagram</type>
+    <coordinates>
+      <x>0</x>
+      <y>20</y>
+      <w>1320</w>
+      <h>740</h>
+    </coordinates>
+    <panel_attributes>title: Handover
+_User~id1_|_Mobile~id2_|_BSS~id3_|_MSC~id4_|_PSTN~id5_|_GSM CE~id6_|_BSS2~id7_|_MSC2~id8_
+sm
+id4-&gt;&gt;id6:id4,id6:m1,m2:handover_required
+id6-&gt;&gt;id8:id6,id8:m3,m4:handover_request
+id8-&gt;&gt;id6:id8,id6:m6,m5:handover_request_ack
+id6-&gt;&gt;id4:id6,id4:m8,m7:handover_command
+id4-&gt;&gt;id2:id4,id2:ma,m9:handover_command
+id2-&gt;&gt;id7:id2,id7:mb,mc:handover_accept
+id7-&gt;&gt;id8:id7,id8:md,me:handover_accept
+id8-&gt;&gt;id6:id8,id6:mg,mf:handover_detected
+id8-&gt;&gt;id7:id8,id7:mi,mh:phyical_info
+id7-&gt;&gt;id2:id7,id2:mk,mj:phyical_info
+id2-&gt;&gt;id8:id2,id8:ml,mm:SABM
+id8-&gt;&gt;id2:id8,id2:mo,mn:UA
+id2-&gt;&gt;id8:id2,id8:mz,mq:handover_complete
+id6-&gt;&gt;id4:id6,id4:ms,mr:clear_command
+id4-&gt;&gt;id6:id4,id6:mt,mu:clear_complete
+wm
+&lt;constraints&gt;
+0&lt;=mb-m1&lt;=5
+0&lt;=mu-m7&lt;=5
+&lt;/constraints&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
